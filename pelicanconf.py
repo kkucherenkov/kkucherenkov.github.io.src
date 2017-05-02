@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kirill Kucherenkov'
 SITENAME = 'Yet Another Developer Journal [YADJ]'
-SITEURL = 'kkucherenkov.github.io'
+SITEURL = 'kucherenkov.info'
 
 PATH = 'content'
 
@@ -24,9 +24,11 @@ CATEGORY_FEED_RSS = 'rss/%s.xml'
 LINKS = ()
 
 # Social widget
-SOCIAL = ()
+SOCIAL = (('Linkedin','https://www.linkedin.com/in/kirillkucherenkov/'),)
 
 DEFAULT_PAGINATION = 15
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+DISQUS_SITENAME = "kucherenkov-info"

@@ -12,4 +12,3 @@ pelican --relative-urls --ignore-cache \
   --theme-path template/pelican-simplegrey \
   -o .. content
 
-git add ../*.html
